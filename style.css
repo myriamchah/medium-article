@@ -1,0 +1,76 @@
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+.banner {
+  background-image: url('https://images.unsplash.com/photo-1494797262163-102fae527c62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner h1 {
+    font-size: 38px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.container {
+  margin: 50px auto;
+  padding: ;
+}
+
+.link-medium {
+    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+    color: #636363;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+h2 {
+    color: #A0A0A0;
+    font-weight: normal !important;
+}
+
+h1, h2 {
+  font-family: 'Monserrat', sans-serif;
+  font-weight: bold;
+}
+
+
+/* Media queries */
+@media(max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 400px;
+  }
+}
+
